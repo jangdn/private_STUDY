@@ -1,4 +1,4 @@
-package chapter3.prototypepattern.poketmon;
+package ch3.creation.prototypepattern.poketmon;
 
 import lombok.AllArgsConstructor;
 
