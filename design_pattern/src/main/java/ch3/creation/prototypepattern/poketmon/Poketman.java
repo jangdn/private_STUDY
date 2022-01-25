@@ -7,8 +7,13 @@ import java.util.List;
 
 public class Poketman {
 
-    @AllArgsConstructor
     static class monster implements Cloneable {
+        public monster(String name, List<Skill> skills, Integer HP) {
+            this.name = name;
+            this.skills = skills;
+            this.HP = HP;
+        }
+
         private String name;
         private List<Skill> skills;
         private Integer HP;
