@@ -1,4 +1,4 @@
-package ch4.structurepattern.composite;
+package ch4.structuralpattern.composite;
 
 import lombok.AllArgsConstructor;
 
